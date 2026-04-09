@@ -1,0 +1,6 @@
+#!/bin/bash
+# Packages: {{ include ".chezmoidata/packages.toml" | sha256sum }}
+set -eu
+
+sudo apt update
+sudo apt install -y {{ range .packages.apt }}{{ . }} {{ end }}

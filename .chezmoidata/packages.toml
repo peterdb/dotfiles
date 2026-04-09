@@ -1,0 +1,8 @@
+[packages]
+apt = [
+    "bat",
+    "i3",
+    "i3status",
+    "dunst",
+    "alacritty"
+]
