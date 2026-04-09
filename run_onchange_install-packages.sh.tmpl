@@ -2,5 +2,10 @@
 # Packages: {{ include ".chezmoidata/packages.toml" | sha256sum }}
 set -eu
 
+sudo apt install -y software-properties-common
+{{ range .packages.apt_repos }}
+sudo add-apt-repository -y {{ . }}
+{{ end }}
+
 sudo apt update
 sudo apt install -y {{ range .packages.apt }}{{ . }} {{ end }}

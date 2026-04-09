@@ -1,0 +1,21 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR __fish_initialized:4300
+SETUVAR _fisher_evanlucas_2F_fish_2D_kubectl_2D_completions_files:\x7e/\x2econfig/fish/completions/kubectl\x2efish
+SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fisher\x2efish\x1e\x7e/\x2econfig/fish/completions/fisher\x2efish
+SETUVAR _fisher_jorgebucaran_2F_nvm_2E_fish_files:/home/peter/\x2econfig/fish/functions/_nvm_index_update\x2efish\x1e/home/peter/\x2econfig/fish/functions/_nvm_list\x2efish\x1e/home/peter/\x2econfig/fish/functions/_nvm_version_activate\x2efish\x1e/home/peter/\x2econfig/fish/functions/_nvm_version_deactivate\x2efish\x1e/home/peter/\x2econfig/fish/functions/nvm\x2efish\x1e/home/peter/\x2econfig/fish/conf\x2ed/nvm\x2efish\x1e/home/peter/\x2econfig/fish/completions/nvm\x2efish
+SETUVAR _fisher_marcransome_2F_pond_files:\x7e/\x2econfig/fish/functions/pond\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/pond\x2efish\x1e\x7e/\x2econfig/fish/completions/pond\x2efish
+SETUVAR _fisher_peterdb_2F_timew_2D_fish_2D_plugin_files:\x7e/\x2econfig/fish/conf\x2ed/timew\x2efish\x1e\x7e/\x2econfig/fish/completions/timew\x2efish
+SETUVAR _fisher_plugins:jorgebucaran/fisher\x1ereitzig/sdkman\x2dfor\x2dfish\x1ejorgebucaran/nvm\x2efish\x1epeterdb/timew\x2dfish\x2dplugin\x1eevanlucas/fish\x2dkubectl\x2dcompletions\x1emarcransome/pond
+SETUVAR _fisher_reitzig_2F_sdkman_2D_for_2D_fish_files:/home/peter/\x2econfig/fish/functions/sdk\x2efish\x1e/home/peter/\x2econfig/fish/conf\x2ed/sdk\x2efish\x1e/home/peter/\x2econfig/fish/completions/sdk\x2efish
+SETUVAR _fisher_upgraded_to_4_4:\x1d
+SETUVAR fish_greeting:Welcome\x20to\x20fish\x2c\x20the\x20friendly\x20interactive\x20shell\x0aType\x20\x60help\x60\x20for\x20instructions\x20on\x20how\x20to\x20use\x20fish
+SETUVAR fish_user_paths:/home/peter/Development/projects/personal/cashflow/bin\x1e/home/peter/\x2elocal/bin\x1e/home/peter/\x2envm/versions/node/v14\x2e16\x2e0/bin
+SETUVAR pond_autoload_suffix:autoload
+SETUVAR pond_autounload_suffix:autounload
+SETUVAR pond_editor:/usr/bin/vim
+SETUVAR pond_enable_on_create:no
+SETUVAR pond_function_path:\x1d
+SETUVAR pond_home:/home/peter/\x2econfig/fish/pond
+SETUVAR pond_load_on_create:yes
+SETUVAR pond_message_prefix:pond

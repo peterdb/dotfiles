@@ -1,8 +1,12 @@
 [packages]
+apt_repos = [
+    "ppa:fish-shell/release-4",
+]
 apt = [
     "bat",
+    "fish",
     "i3",
     "i3status",
     "dunst",
-    "alacritty"
+    "alacritty",
 ]
