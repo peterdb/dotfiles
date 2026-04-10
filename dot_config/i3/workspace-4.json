@@ -1,0 +1,51 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1060,
+       "width": 945,
+       "x": 5130,
+       "y": 10
+    },
+    "marks": [],
+    "name": "web.whatsapp.com",
+    "percent": 0.5,
+    "swallows": [
+       {
+          "class": "^WebApp\\-WhatsApp9326$",
+       // "instance": "^web\\.whatsapp\\.com$",
+       // "machine": "^peter\\-TUXEDO$",
+       // "title": "^web\\.whatsapp\\.com$",
+       // "window_role": "^pop\\-up$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1024,
+       "width": 956,
+       "x": 962,
+       "y": 28
+    },
+    "marks": [],
+    "name": "Signal (1)",
+    "percent": 0.5,
+    "swallows": [
+       {
+          "class": "^Signal$",
+       // "instance": "^signal$",
+       // "machine": "^peter\\-TUXEDO$",
+       // "title": "^Signal\\ \\(1\\)$",
+       // "window_role": "^browser\\-window$"
+       }
+    ],
+    "type": "con"
+}
+

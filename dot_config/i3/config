@@ -77,6 +77,15 @@ for_window [class="jetbrains-idea"] move to workspace 3, workspace 3
 for_window [class="Google-chrome"] move to workspace 1, workspace 1
 for_window [class="jetbrains-idea" title="^Terminal - "] move to workspace 2, workspace 2
 
+# begin layout stuff
+
+# -- workspace 4: messaging --
+$exec "i3-msg 'workspace 4; append_layout ~/.config/i3/workspace-4.json'"
+$exec signal-desktop
+$exec gtk-launch webapp-WhatsApp9326.desktop
+
+# end layout stuff
+
 # i3lock binding
 bindsym $mod+Escape exec --no-startup-id "playerctl pause; i3lock -c 000000"
 
