@@ -107,6 +107,10 @@ bindsym XF86AudioPlay exec --no-startup-id playerctl play-pause
 bindsym XF86AudioNext exec --no-startup-id playerctl next
 bindsym XF86AudioPrev exec --no-startup-id playerctl previous
 
+# screenshots
+bindsym $mod+Print exec --no-startup-id scrot ~/Pictures/Screenshots/screenshot-%F_%T.png
+bindsym --release $mod+Shift+Print exec --no-startup-id scrot -s ~/Pictures/Screenshots/screenshot-%F_%T.png
+
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
